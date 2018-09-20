@@ -11,6 +11,12 @@
 		3BFE3314215330760009267D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE3313215330760009267D /* Assets.xcassets */; };
 		3BFE3317215330760009267D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE3315215330760009267D /* LaunchScreen.storyboard */; };
 		3BFE331A215330760009267D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE3319215330760009267D /* main.m */; };
+		3BFE33222153311A0009267D /* BNRHypnosisVuew.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE33212153311A0009267D /* BNRHypnosisVuew.m */; };
+		3BFE3325215331CD0009267D /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE3324215331CD0009267D /* BNRHypnosisViewController.m */; };
+		3BFE3328215373BA0009267D /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE3327215373BA0009267D /* BNRReminderViewController.m */; };
+		3BFE332C215378200009267D /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE332B215378200009267D /* BNRReminderViewController.xib */; };
+		3BFE3330215454570009267D /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE332E215454570009267D /* QuizViewController.m */; };
+		3BFE3331215454570009267D /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE332F215454570009267D /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,16 @@
 		3BFE3316215330760009267D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BFE3318215330760009267D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFE3319215330760009267D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BFE33202153310E0009267D /* BNRHypnosisVuew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisVuew.h; sourceTree = "<group>"; };
+		3BFE33212153311A0009267D /* BNRHypnosisVuew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisVuew.m; sourceTree = "<group>"; };
+		3BFE3323215331CD0009267D /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		3BFE3324215331CD0009267D /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		3BFE3326215373BA0009267D /* BNRReminderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		3BFE3327215373BA0009267D /* BNRReminderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		3BFE332B215378200009267D /* BNRReminderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		3BFE332D215454570009267D /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		3BFE332E215454570009267D /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		3BFE332F215454570009267D /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +71,20 @@
 			children = (
 				3BFE3310215330750009267D /* AppDelegate.h */,
 				3BFE3311215330750009267D /* AppDelegate.m */,
+				3BFE3326215373BA0009267D /* BNRReminderViewController.h */,
+				3BFE3327215373BA0009267D /* BNRReminderViewController.m */,
+				3BFE332B215378200009267D /* BNRReminderViewController.xib */,
+				3BFE3323215331CD0009267D /* BNRHypnosisViewController.h */,
+				3BFE3324215331CD0009267D /* BNRHypnosisViewController.m */,
+				3BFE332D215454570009267D /* QuizViewController.h */,
+				3BFE332E215454570009267D /* QuizViewController.m */,
+				3BFE332F215454570009267D /* QuizViewController.xib */,
 				3BFE3313215330760009267D /* Assets.xcassets */,
 				3BFE3315215330760009267D /* LaunchScreen.storyboard */,
 				3BFE3318215330760009267D /* Info.plist */,
 				3BFE3319215330760009267D /* main.m */,
+				3BFE33202153310E0009267D /* BNRHypnosisVuew.h */,
+				3BFE33212153311A0009267D /* BNRHypnosisVuew.m */,
 			);
 			path = HypnoNerd;
 			sourceTree = "<group>";
@@ -120,8 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFE332C215378200009267D /* BNRReminderViewController.xib in Resources */,
 				3BFE3314215330760009267D /* Assets.xcassets in Resources */,
 				3BFE3317215330760009267D /* LaunchScreen.storyboard in Resources */,
+				3BFE3331215454570009267D /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFE3325215331CD0009267D /* BNRHypnosisViewController.m in Sources */,
 				3BFE331A215330760009267D /* main.m in Sources */,
 				3BFE3312215330750009267D /* AppDelegate.m in Sources */,
+				3BFE3328215373BA0009267D /* BNRReminderViewController.m in Sources */,
+				3BFE33222153311A0009267D /* BNRHypnosisVuew.m in Sources */,
+				3BFE3330215454570009267D /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasser.HypnoNerd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,7 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasser.HypnoNerd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

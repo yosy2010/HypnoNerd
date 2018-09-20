@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "BNRHypnosisViewController.h"
+#import "BNRReminderViewController.h"
+#import "QuizViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +20,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // here we initilize the main window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor cyanColor];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    
+    // and give it a background color
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    // create the reminder view controller using init only as the nib file has the same name as the view controller
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] init];
+    
+    // create the hypnosis view controller
+    BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
+    
+    // create the quiz view controller
+    QuizViewController *qvc = [[QuizViewController alloc] init];
+  
+    //create tab Bar view Controller
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    
+    // add the two controllers to the tabBarController
+    tabController.viewControllers = @[hvc, rvc, qvc];
+    
+    // and set the tab bar controller as the root view of the window
+    self.window.rootViewController = tabController;
+    
+    // we draw the window with all what's benith it to the screen
     [self.window makeKeyAndVisible];
 
     return YES;
