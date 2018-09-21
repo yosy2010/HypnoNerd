@@ -75,10 +75,7 @@
     // if the object exists
     if (self) {
         
-        // put the photo and the title to the tab bar
-        UIImage *image = [UIImage imageNamed:@"Icon"];
-        
-        self.tabBarItem.image = image;
+        // put the title to the tab bar
         self.tabBarItem.title = @"Quiz";
         
         // create two arrays filled with questions and answer and make them
