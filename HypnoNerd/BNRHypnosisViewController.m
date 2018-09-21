@@ -127,6 +127,21 @@
         
         // add the label to the view
         [self.view addSubview:label];
+        
+        // motion effect
+        UIInterpolatingMotionEffect *motionEffect;
+        motionEffect = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.x"
+                                                                       type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+        motionEffect.minimumRelativeValue = @(-25);
+        motionEffect.maximumRelativeValue = @(25);
+        [label addMotionEffect:motionEffect];
+        
+        motionEffect = [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.y"
+                                                                       type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+        motionEffect.minimumRelativeValue = @(-25);
+        motionEffect.maximumRelativeValue = @(25);
+        [label addMotionEffect:motionEffect];
+        
     }
 }
 

@@ -69,24 +69,56 @@
 		3BFE330F215330750009267D /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
-				3BFE3310215330750009267D /* AppDelegate.h */,
+				3BFE33552155B2250009267D /* headerFiles */,
+				3BFE33562155B2590009267D /* XIB */,
+				3BFE33572155B2880009267D /* extras */,
+				3BFE33582155B8970009267D /* VC */,
 				3BFE3311215330750009267D /* AppDelegate.m */,
-				3BFE3326215373BA0009267D /* BNRReminderViewController.h */,
-				3BFE3327215373BA0009267D /* BNRReminderViewController.m */,
-				3BFE332B215378200009267D /* BNRReminderViewController.xib */,
-				3BFE3323215331CD0009267D /* BNRHypnosisViewController.h */,
-				3BFE3324215331CD0009267D /* BNRHypnosisViewController.m */,
-				3BFE332D215454570009267D /* QuizViewController.h */,
-				3BFE332E215454570009267D /* QuizViewController.m */,
-				3BFE332F215454570009267D /* QuizViewController.xib */,
+				3BFE33212153311A0009267D /* BNRHypnosisVuew.m */,
 				3BFE3313215330760009267D /* Assets.xcassets */,
+			);
+			path = HypnoNerd;
+			sourceTree = "<group>";
+		};
+		3BFE33552155B2250009267D /* headerFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE332D215454570009267D /* QuizViewController.h */,
+				3BFE3310215330750009267D /* AppDelegate.h */,
+				3BFE3326215373BA0009267D /* BNRReminderViewController.h */,
+				3BFE3323215331CD0009267D /* BNRHypnosisViewController.h */,
+				3BFE33202153310E0009267D /* BNRHypnosisVuew.h */,
+			);
+			name = headerFiles;
+			sourceTree = "<group>";
+		};
+		3BFE33562155B2590009267D /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE332B215378200009267D /* BNRReminderViewController.xib */,
+				3BFE332F215454570009267D /* QuizViewController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		3BFE33572155B2880009267D /* extras */ = {
+			isa = PBXGroup;
+			children = (
 				3BFE3315215330760009267D /* LaunchScreen.storyboard */,
 				3BFE3318215330760009267D /* Info.plist */,
 				3BFE3319215330760009267D /* main.m */,
-				3BFE33202153310E0009267D /* BNRHypnosisVuew.h */,
-				3BFE33212153311A0009267D /* BNRHypnosisVuew.m */,
 			);
-			path = HypnoNerd;
+			name = extras;
+			sourceTree = "<group>";
+		};
+		3BFE33582155B8970009267D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE3324215331CD0009267D /* BNRHypnosisViewController.m */,
+				3BFE3327215373BA0009267D /* BNRReminderViewController.m */,
+				3BFE332E215454570009267D /* QuizViewController.m */,
+			);
+			name = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
